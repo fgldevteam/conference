@@ -22,3 +22,9 @@ Route::get('/register', function(){
 });
 
 Route::post('/register/save', 'RegistrationController@registerUser');
+
+
+
+Route::get('/app', function(){
+	return View::make('app/index');
+});
