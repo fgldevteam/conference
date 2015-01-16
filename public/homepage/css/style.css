@@ -300,11 +300,11 @@ a, h1,
 .btn-submit,
 .morph-button-modal-3 .morph-content .btn-submit h3,
 .member-info ul li a span {
-	-webkit-transition: all 0.35s ease-in-out;
+	/*-webkit-transition: all 0.35s ease-in-out;
    	   -moz-transition: all 0.35s ease-in-out;
    		 -o-transition: all 0.35s ease-in-out;
    		-ms-transition: all 0.35s ease-in-out;
-   			transition: all 0.35s ease-in-out;
+   			transition: all 0.35s ease-in-out;*/
 }
 
 .morph-button-overlay .morph-content .button-close-icon,
@@ -402,7 +402,7 @@ h1:after {
 		-------------------------------------------------------------------*/
 
 		.timer{
-			margin-top: 40px;
+			margin-top: 0px;
 			width: 100%;
 			text-align: center !important;
 		}

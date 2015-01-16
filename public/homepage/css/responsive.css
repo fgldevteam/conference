@@ -37,14 +37,14 @@ MEDIA QUERIES - RESPONSIVE FEATURES
 	body{
 		font-size: 14px;
 	}
-	textarea, 
-	input[type="text"], 
-	input[type="text"]:hover, 
-	input[type="text"]:focus, 
+	textarea,
+	input[type="text"],
+	input[type="text"]:hover,
+	input[type="text"]:focus,
 	input[type="text"]:active,
-	input[type="email"], 
-	input[type="email"]:hover, 
-	input[type="email"]:focus, 
+	input[type="email"],
+	input[type="email"]:hover,
+	input[type="email"]:focus,
 	input[type="email"]:active{
 		font-size: 14px;
 		padding: 8px;
@@ -56,7 +56,8 @@ MEDIA QUERIES - RESPONSIVE FEATURES
 		line-height: 20px;
 	}
 	.timer{
-		margin-top: 20px;
+		margin-top: 0px;
+	
 	}
 	.timer ul li{
 		min-width: 109px;
@@ -92,7 +93,7 @@ MEDIA QUERIES - RESPONSIVE FEATURES
 	.morph-button-fixed .morph-content {
 		width: 130px;
 	}
-	.footer-social li a { 
+	.footer-social li a {
 		padding: 8px;
 		font-size: 16px;
 	}
@@ -100,9 +101,9 @@ MEDIA QUERIES - RESPONSIVE FEATURES
 		margin-top: 20px;
 		font-size: 20px;
 	}
-	.timer2 .days, 
-	.timer2 .hours, 
-	.timer2 .minutes, 
+	.timer2 .days,
+	.timer2 .hours,
+	.timer2 .minutes,
 	.timer2 .seconds,
 	.timer2 .separate{
 	    font-size: 45px;
@@ -118,7 +119,7 @@ MEDIA QUERIES - RESPONSIVE FEATURES
 		display: none;
 	}
 }
-	
+
 @media (max-width: 480px) {
 	.timer ul li:nth-child(3){
 		border-right: 0px;
@@ -154,10 +155,10 @@ MEDIA QUERIES - RESPONSIVE FEATURES
 @media (max-width: 400px) {
 	.morph-button.morph-button-modal-3{
 		clear: both;
-		margin-top: -30px; 
+		margin-top: -30px;
 	}
 	.footer-social{
-		margin-top: -30px; 
+		margin-top: -30px;
 	}
 }
 
@@ -173,7 +174,7 @@ MEDIA QUERIES - RESPONSIVE FEATURES
 
 @media (max-width: 360px) {
 	.morph-button.morph-button-modal-2{
-		margin-top: -30px; 
+		margin-top: -30px;
 	}
 }
 
