@@ -93,7 +93,7 @@ class RegistrationController extends BaseController{
         $user = User::create($userdetails);
         $user->save();
 
-        return View::make('registrationsuccess');
+        return View::make('registration/registrationsuccess');
 
     }
 

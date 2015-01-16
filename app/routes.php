@@ -13,18 +13,12 @@
 
 Route::get('/', function()
 {
-	return View::make('home');
+	return View::make('registration/home');
 });
 
 
 Route::get('/register', function(){
-	return View::make('register');
+	return View::make('registration/register');
 });
 
 Route::post('/register/save', 'RegistrationController@registerUser');
-
-
-Route::get('/test', function()
-{
-	return View::make('test');
-});
