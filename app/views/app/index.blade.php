@@ -1,1 +1,9 @@
-this is the initial view for the app
+@extends('app/layout')
+
+@section('title')
+    this is the title
+@stop
+
+@section('content')
+    this is the content
+@stop
