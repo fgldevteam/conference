@@ -13,5 +13,18 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('home');
+});
+
+
+Route::get('/register', function(){
+	return View::make('register');
+});
+
+Route::post('/register/save', 'RegistrationController@registerUser');
+
+
+Route::get('/test', function()
+{
+	return View::make('test');
 });
