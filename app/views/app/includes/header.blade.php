@@ -2,8 +2,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="HTML5 Business Template Powered By Twitter Bootstrap 3.0">
-    <meta name="author" content="Anuj Kumar">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <link rel="shortcut icon" href="../../assets/ico/favicon.png">
 

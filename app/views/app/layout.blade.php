@@ -6,11 +6,14 @@
         @include('app/includes/nav')
 
 
-        <div class="content-area">
+        <div class="content-area" style="">
             @yield('content')
+
+
+            @include('app/includes/footer')
         </div>
 
-        @include('app/includes/footer')
+
 
     </body>
 </html>

@@ -6,11 +6,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./">hello</a>
+            <a class="navbar-brand" href="./">2015 SGM Conference</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="./">Home</a></li>
+                <li class="active"><a href="./">2015 SGM Conference</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -44,32 +44,29 @@
     </div>
 </div>
 <ul id="sidemenu" class="sidemenu hidden-xs">
-    <li><a class="sidemenu-brand" href="./">Hello</a></li>
-    <li>
-        <a class="selected" href="index.html"><i class="icon-home icon-2x"></i> <br/>Home</a></li>
+    <li><a class="sidemenu-brand" href="/app"><img src="/img/logo.png" height="100" /></a></li>
+
         <li>
-            <a class="flyout" href="#"><i class="icon-file icon-2x"></i> <br/>Pages <i class="icon-caret-right"></i></a>
+            <a class="flyout" href="#"><i class="icon-file icon-2x"></i> <br/>Conference Info <i class="icon-caret-right"></i></a>
             <ul class="submenu">
-                <li class="submenu-section"><i class="icon-plus"></i> </li>
-                <li class="submenu-item"><a href="services.html">Services</a></li>
-                <li class="submenu-item"><a href="portfolio.html">Portfolio</a></li>
-                <li class="submenu-item"><a href="portfolio-item.html">Portfolio Item</a></li>
-                <li class="submenu-item"><a href="features.html">Features</a></li>
-                <li class="submenu-item"><a href="pricing.html">Pricing</a></li>
-                <li class="submenu-item"><a href="team.html">Team</a></li>
-                <li class="submenu-item"><a href="careers.html">Careers</a></li>
-                <li class="submenu-item"><a href="clients.html">Clients</a></li>
-                <li class="submenu-item"><a href="faq.html">FAQ</a></li>
-                <li class="submenu-item"><a href="blog.html">Blog</a></li>
-                <li class="submenu-item"><a href="blog-post.html">Blog Single Post</a></li>
-                <li class="submenu-item"><a href="gallery.html">Gallery</a></li>
-                <li class="submenu-item"><a href="register.html">Sign Up</a></li>
-                <li class="submenu-item"><a href="login.html">Sign In</a></li>
-                <li class="submenu-item"><a href="recover-password.html">Recover Password</a></li>
-                <li class="submenu-item"><a href="coming-soon.html">Coming Soon Page</a></li>
-                <li class="submenu-item"><a href="error-404.html">404 Error Page</a></li>
+                <li class="submenu-section">Conference Information</li>
+                <li class="submenu-item"><a href="/app/welcome">Welcome Message</a></li>
+                <li class="submenu-item"><a href="/app/sessions">Sessions &amp; Activities</a></li>
+                <li class="submenu-item"><a href="/app/venue">Venue Information</a></li>
+                <li class="submenu-item"><a href="/app/speakers">Speaker Bios</a></li>
+                <li class="submenu-item"><a href="/app/gallery">Gallery</a></li>
             </ul>
         </li>
-        <li><a href="about.html"><i class="icon-info icon-2x"></i> <br/>About</a></li>
-        <li><a href="contact.html"><i class="icon-phone icon-2x"></i> <br/>Contact</a></li>
+        <li>
+            <a class="flyout" href="#"><i class="icon-info icon-2x"></i> <br/>My Conference</a>
+            <ul class="submenu">
+                <li class="submenu-section">My Conference</li>
+                <li class="submenu-item"><a href="/app/travel">My Travel</a></li>
+                <li class="submenu-item"><a href="/app/agenda">My Agenda</a></li>
+                <li class="submenu-item"><a href="/app/waivers">Waivers</a></li>
+                <li class="submenu-item"><a href="/app/surveys">Surveys</a></li>
+
+            </ul>
+        </li>
+
     </ul>

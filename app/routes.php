@@ -28,3 +28,27 @@ Route::post('/register/save', 'RegistrationController@registerUser');
 Route::get('/app', function(){
 	return View::make('app/index');
 });
+
+
+/*Conference Info*/
+Route::get('/app/welcome', function(){ return View::make('app/welcome'); });
+Route::get('/app/sessions', function(){ return View::make('app/sessions'); });
+Route::get('/app/venue', function(){ return View::make('app/venue'); });
+Route::get('/app/speakers', function(){ return View::make('app/speakers'); });
+Route::get('/app/gallery', function(){ return View::make('app/gallery'); });
+
+/*My Conference*/
+Route::get('/login', array('uses' => 'HomeController@showLogin'));
+Route::post('/login', array('uses' => 'HomeController@doLogin'));
+
+Route::get('/app/travel', array('before' => 'auth', function(){
+	 return View::make('app/travel');
+}));
+
+Route::get('/app/agenda', function(){ return View::make('app/agenda'); });
+Route::get('/app/waivers', function(){ return View::make('app/waivers'); });
+Route::get('/app/surveys', function(){ return View::make('app/surveys'); });
+
+
+
+Route::get('/logout', array('uses' => 'HomeController@doLogout'));
