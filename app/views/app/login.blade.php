@@ -39,15 +39,6 @@ Log In
             </div>
         {{ Form::close() }}
     </div>
-    <!-- <div class="login-footer">
-        <!-- <a class="btn btn-block btn-twitter">
-            <i class="icon-twitter"></i>
-            Sign in with Twitter
-        </a>
-        <a class="btn btn-block btn-facebook">
-            <i class="icon-facebook"></i>
-            Sign in with Facebook
-        </a> -->
-    </div> -->
+
 </div>
 @stop

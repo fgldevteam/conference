@@ -5,7 +5,15 @@ My Travel Plans
 @stop
 
 @section('content')
+    @include('app/includes/signedinbar')
+    <div class="page-header">
+        <div class="container">
+            <h3>My Travel</h3>
+        </div>
 
-Welcome {{ Auth::user()->first }} {{ Auth::user()->last }}
-Your travel info
+    </div>
+
+    <div class="container">
+        Travel Info
+    </div>
 @stop

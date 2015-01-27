@@ -7,9 +7,15 @@ Welcome to the 2015 SGM Conference
 @section('content')
 
 <div class="page-header">
-
+    <div class="container">
         <h3>Welcome to the Conference</h3>
+    </div>
+
+</div>
+
+<div class="container">
 
 
+    Welcome message
 </div>
 @stop

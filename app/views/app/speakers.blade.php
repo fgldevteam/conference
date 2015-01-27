@@ -7,8 +7,16 @@ Conference Speakers
 @section('content')
 
 <div class="page-header">
+    <div class="container">
         <h3>Conference Speakers</h3>
+    </div>
+
 </div>
+
+<div class="container">
+
+
+
 
 
 <div id="team">
@@ -179,6 +187,8 @@ Conference Speakers
                 </a>
             </div>
         </div>
+
+</div>
 
 </div>
 @stop
