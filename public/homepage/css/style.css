@@ -160,8 +160,8 @@ a, a:hover{
 }
 
 
-#blackbox{ padding: 20px; background: url('/img/000000-0.7.png') top left repeat; }
-#blackbox-activity{ padding: 20px; background: url('/img/000000-0.9.png') top left repeat; }
+#blackbox{ padding: 20px; background: url('/img/000000-0.7.png') top left repeat; background-repeat: repeat; }
+#blackbox-activity{ padding: 20px; background: url('/img/000000-0.9.png') top left repeat; background-repeat: repeat;}
 
 
 

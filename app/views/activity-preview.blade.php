@@ -33,6 +33,12 @@
     <!--[if lt IE 9]>
     <script src="/js/html5shiv.js"></script>
     <script src="/js/respond.min.js"></script>
+
+    <style>
+    #blackbox{ padding: 20px; background-color: #000 !important; }
+    #blackbox-activity{ padding: 20px; background-color: #000 !important; }
+    </style>
+
     <![endif]-->
 
     <!-- ==============================================
@@ -132,43 +138,43 @@
                                     </ul>
                                 </div>
                             </div> -->
-                            <h4>Climbing – 30 people</h4>
-                            <p style="text-align: left;">Come test your climbing and bouldering skills at Rock Oasis. This facility offers rope climbing and bouldering from a beginner level all the way to finger print peeling, crimpy madness. If you understand what that means, you will want to participate. Bring athletic attire that allows full range of motion. Shoes and harness will be provided at the facility (if you wish to pack your own climbing shoes, feel free).</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Climbing – 30 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Come test your climbing and bouldering skills at Rock Oasis. This facility offers rope climbing and bouldering from a beginner level all the way to finger print peeling, crimpy madness. If you understand what that means, you will want to participate. Bring athletic attire that allows full range of motion. Shoes and harness will be provided at the facility (if you wish to pack your own climbing shoes, feel free).</p>
 
 
 
-                            <h4>Crossfit – 40 people</h4>
-                            <p style="text-align: left;">This is your chance to try crossfit in an environment that has been created specifically for our group. Intro to crossfit, warm-up and then two W.O.D choices (beginner and intermediate). Bring athletic attire and proper training footwear as crossfit combines Olympic lifting, body weight exercises and sprint style explosiveness.</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Crossfit – 40 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">This is your chance to try crossfit in an environment that has been created specifically for our group. Intro to crossfit, warm-up and then two W.O.D choices (beginner and intermediate). Bring athletic attire and proper training footwear as crossfit combines Olympic lifting, body weight exercises and sprint style explosiveness.</p>
 
-                            <h4>Yoga – 40 people</h4>
-                            <p style="text-align: left;">Seize the opportunity to learn how to become more flexible for your sport or activity! This beginner class will give you the introduction you need to understand what yoga is all about. If you are experienced, come share your passion for yoga with the group. Bring fitted athletic clothes and a towel.</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Yoga – 40 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Seize the opportunity to learn how to become more flexible for your sport or activity! This beginner class will give you the introduction you need to understand what yoga is all about. If you are experienced, come share your passion for yoga with the group. Bring fitted athletic clothes and a towel.</p>
 
-                            <h4>Circuit Training – 30 people</h4>
-                            <p style="text-align: left;">Located at Madonna’s Toronto gym (Hard Candy), this workout will test your general fitness and offer a great workout. Bring athletic attire and training shoes.</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Circuit Training – 30 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Located at Madonna’s Toronto gym (Hard Candy), this workout will test your general fitness and offer a great workout. Bring athletic attire and training shoes.</p>
 
-                            <h4>Spin – 30 people</h4>
-                            <p style="text-align: left;">Cycling fans unite! Come share your passion for pedal powered propulsion devices and challenge your fitness! Bring cycling specific shorts, training shoes and a towel.</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Spin – 30 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Cycling fans unite! Come share your passion for pedal powered propulsion devices and challenge your fitness! Bring cycling specific shorts, training shoes and a towel.</p>
 
-                            <h4>Learn to run – 30 people</h4>
-                            <p style="text-align: left;">Interested in learning to run? No preparation required. This workshop will introduce you to the walk/run approach to building up the endurance to run a 5 K. You will be required to run, so proper running attire, appropriate running shoes and some hydration is required. Be prepared for any type of weather and pack accordingly. The total distance of this activity will be between 3 and 4 kilometers (walking and light running).</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Learn to run – 30 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Interested in learning to run? No preparation required. This workshop will introduce you to the walk/run approach to building up the endurance to run a 5 K. You will be required to run, so proper running attire, appropriate running shoes and some hydration is required. Be prepared for any type of weather and pack accordingly. The total distance of this activity will be between 3 and 4 kilometers (walking and light running).</p>
 
-                            <h4>Fun Run – 30 people</h4>
-                            <p style="text-align: left;">Yes…running is fun. Come and run the scenic waterfront trails of Toronto. Bring proper running attire, appropriate running shoes and some hydration. Be prepared for any type of weather and pack accordingly. The total distance of this activity will be between 5 and 8 kilometers (depending on the group).</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Fun Run – 30 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Yes…running is fun. Come and run the scenic waterfront trails of Toronto. Bring proper running attire, appropriate running shoes and some hydration. Be prepared for any type of weather and pack accordingly. The total distance of this activity will be between 5 and 8 kilometers (depending on the group).</p>
 
-                            <h4>Football – 30 people</h4>
-                            <p style="text-align: left;">Dreams of being a CFL or NFL star? Come to terms with the fact that this is not ever going to happen for you and come play some friendly touch football with like-minded team-mates! Bring athletic attire, training or running shoes (no spikes) and your favorite team’s jersey.</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Football – 30 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Dreams of being a CFL or NFL star? Come to terms with the fact that this is not ever going to happen for you and come play some friendly touch football with like-minded team-mates! Bring athletic attire, training or running shoes (no spikes) and your favorite team’s jersey.</p>
 
-                            <h4>Soccer – 40 people</h4>
-                            <p style="text-align: left;">Whether you call it football or soccer, come and kick the round ball with other enthusiasts. This is your opportunity to feel like a major European star, complete with a chauffeured coach to and from the pitch. Bring athletic attire, your favorite team’s jersey and training or running shoes (no spikes).</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Soccer – 40 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Whether you call it football or soccer, come and kick the round ball with other enthusiasts. This is your opportunity to feel like a major European star, complete with a chauffeured coach to and from the pitch. Bring athletic attire, your favorite team’s jersey and training or running shoes (no spikes).</p>
 
-                            <h4>Ultimate Frisbee – 30 people</h4>
-                            <p style="text-align: left;">Come play the sport that doesn’t neatly fit into any conventional sport category… Have some fun playing soccer with a Frisbee. Bring athletic attire and training or running shoes.</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Ultimate Frisbee – 30 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Come play the sport that doesn’t neatly fit into any conventional sport category… Have some fun playing soccer with a Frisbee. Bring athletic attire and training or running shoes.</p>
 
-                            <h4>Volleyball – 30 people</h4>
-                            <p style="text-align: left;">Big vertical, quick feet and sharp hand-eye coordination? Chanel your inner Maverick, Goose or Iceman and come show your skills on the volleyball court. Bring athletic attire, training or court shoes.</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Volleyball – 30 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Big vertical, quick feet and sharp hand-eye coordination? Chanel your inner Maverick, Goose or Iceman and come show your skills on the volleyball court. Bring athletic attire, training or court shoes.</p>
 
-                            <h4>Basketball – 40 people</h4>
-                            <p style="text-align: left;">Come and try out for the Toronto Raptors. We have arranged for no scouts to be there to see your skills on the hardwood. Share your passion for the game and participate in a friendly game of basketball. Bring athletic shorts, your favorite jersey, some basketball or training shoes.</p>
+                            <h4 style="font-weight: bold; padding: 10px 0px 10px 0px; text-align: left;">Basketball – 40 people</h4>
+                            <p style="text-align: left; line-height: 20px; padding-bottom: 20px;">Come and try out for the Toronto Raptors. We have arranged for no scouts to be there to see your skills on the hardwood. Share your passion for the game and participate in a friendly game of basketball. Bring athletic shorts, your favorite jersey, some basketball or training shoes.</p>
 
                             <br /><br /><br />
                             <p class="intro animate">Registration opens Wednensday, February 17<sup>th</sup> at Noon Mountain Standard Time.</p>
