@@ -23,6 +23,11 @@ Route::get('/register', function(){
 
 Route::post('/register/save', 'RegistrationController@registerUser');
 
+Route::get('/activities', function(){
+	return View::make('activity-preview');	
+});
+
+
 
 
 Route::get('/app', function(){

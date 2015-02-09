@@ -131,7 +131,7 @@
 						</div>
 
 
-						<a href="/register" class="btn btn-default">Register Now!</a>
+						<a href="/register" class="btn btn-default">Register Now!</a>  &nbsp;&nbsp;&nbsp; <a href="/activities" class="btn btn-default">Activity Preview</a>
 						<br />
 					</div>
 					<!-- <div class="timerContent animate">
