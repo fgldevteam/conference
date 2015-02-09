@@ -30,13 +30,6 @@
     <link rel="stylesheet" href="/homepage/css/component.css" type="text/css"  media="screen" />
     <link rel="stylesheet" href="/homepage/css/style.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/homepage/css/responsive.css" type="text/css" media="screen" />
-
-    <style>
-    h1, h2, h3, h4, h5, h6, p, li, td {
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OTJBQkFGRUZFOTIyMTFFMEJDRDNEQzkxOTVGOTNBODAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OTJBQkFGRjBFOTIyMTFFMEJDRDNEQzkxOTVGOTNBODAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5MkFCQUZFREU5MjIxMUUwQkNEM0RDOTE5NUY5M0E4MCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5MkFCQUZFRUU5MjIxMUUwQkNEM0RDOTE5NUY5M0E4MCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtrV+I8AAAAQSURBVHjaYvj//z8DQIABAAj8Av7bok0WAAAAAElFTkSuQmCC',sizingMethod=crop);
-    zoom: 1;
-    }
-    </style>
     <!--[if lt IE 9]>
 	<script src="/js/html5shiv.js"></script>
 	<script src="/js/respond.min.js"></script>
@@ -96,28 +89,13 @@
                     <h1 id="logo" class="animate">
                         <img src="/homepage/img/logo.png" />
                     </h1>
-
-                    <div id="blackbox">
                     <h2 class="intro animate" style="font-family:GalaxiePolarisCondensed-Bold; padding-bottom: 20px;">Thank You!</h2>
 
 
                     <p class="intro animate"></p>
 
-                    <!-- <div id="DateCountdown" data-date="2015-03-24 00:00:00" class="timerContent animate"></div> -->
+                    <div id="DateCountdown" data-date="2015-03-23 00:00:00" class="timerContent animate"></div>
 
-                    <div class="timerContent animate">
-                        <div class="timer">
-                            <ul>
-                                <li><span class="days"></span><p class="daysText">days</p></li>
-                                <li><span class="hours"></span><p class="hoursText">hours</p></li>
-                                <li><span class="minutes"></span><p class="minutesText">minutes</p></li>
-                                <li><span class="seconds"></span><p class="secondsText">seconds</p></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                
                     <!-- <div class="timerContent animate">
                     <p class="timer2">
                     <span class="days"></span><span class="daysText"></span><span class="separate">/</span>

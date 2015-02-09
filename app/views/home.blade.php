@@ -110,14 +110,14 @@
 
 					<div id="blackbox">
 						<h2 class="intro animate" style="font-family:GalaxiePolarisCondensed-Bold; padding-bottom: 20px; line-height: 40px;">2015 FGL Sports<br />Store General Managers' Conference</h2>
-						<h3 class="intro animate" style="font-family:GalaxiePolarisCondensed-Light; padding-bottom: 12px;">March 24 - 26, 2015</h3>
+						<h3 class="intro animate" style="font-family:GalaxiePolarisCondensed-Light; padding-bottom: 12px;">March 23 - 24, 2015</h3>
 						<h3 class="intro animate" style="font-family:GalaxiePolarisCondensed-Light; padding-bottom: 20px;">Toronto, Ontario</h3>
 
 						<p class="intro animate">The time has come to register for this year’s SGM Conference in Toronto. <br />
 							Please complete your registration by Tuesday January 27th. <br />
 							We will contact conference participants in the coming weeks with more information.<br />We look forward to seeing everyone in Toronto.</p>
 
-						<!-- <div id="DateCountdown" data-date="2015-03-24 00:00:00" class="timerContent animate"></div> -->
+						<!-- <div id="DateCountdown" data-date="2015-03-23 00:00:00" class="timerContent animate"></div> -->
 
 						<div class="timerContent animate">
 							<div class="timer">
