@@ -17,7 +17,6 @@
                         <li><a href="/app/welcome">Welcome Message</a></li>
                         <li><a href="/app/sessions">Sessions &amp; Activities</a></li>
                         <li><a href="/app/venue">Venue Information</a></li>
-                        <li><a href="/app/speakers">Speaker Bios</a></li>
                         <li><a href="/app/gallery">Gallery</a></li>
                     </ul>
                 </li>

@@ -42,6 +42,11 @@ Route::post('/login', array('uses' => 'HomeController@doLogin'));
 Route::get('/logout', array('uses' => 'HomeController@doLogout'));
 
 /* My Conference -- private pages */
+Route::get('/app/activity-selection', array('before' => 'auth', function(){
+	return View::make('app/activity-selection');
+}));
+
+
 Route::get('/app/travel', array('before' => 'auth', function(){
 	 return View::make('app/travel');
 }));

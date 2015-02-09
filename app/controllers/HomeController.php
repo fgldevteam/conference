@@ -53,7 +53,7 @@ class HomeController extends BaseController {
 
 				// validation successful!
 				// redirect them to the secure section or whatever
-				return Redirect::to('/app/welcome');
+				return Redirect::to('/app/activity-selection');
 
 
 
