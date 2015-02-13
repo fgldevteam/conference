@@ -2060,3 +2060,8 @@ footer hr{
 #link_get_widget{
     display: none;
 }
+
+
+a.disabled-link{
+    color: #666 !important;
+}

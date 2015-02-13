@@ -17,17 +17,22 @@
                         <li><a href="/app/welcome">Welcome Message</a></li>
                         <li><a href="/app/sessions">Conference Agenda</a></li>
                         <li><a href="/app/venue">Venue Information</a></li>
-                        <li><a href="/app/gallery">Gallery</a></li>
+                        <!-- <li><a href="/app/gallery">Gallery</a></li> -->
+                        <li><a href="#" class="disabled-link">Gallery</a></li>
                     </ul>
                 </li>
 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Conference <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Conference<b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/app/travel">My Travel</a></li>
+                        <!-- <li><a href="/app/travel">My Travel</a></li>
                         <li><a href="/app/agenda">My Agenda</a></li>
                         <li><a href="/app/waivers">My Waivers</a></li>
-                        <li><a href="/app/surveys">Surveys</a></li>
+                        <li><a href="/app/surveys">Surveys</a></li> -->
+                        <li><a href="#" class="disabled-link">My Travel</a></li>
+                        <li><a href="#" class="disabled-link">My Agenda</a></li>
+                        <li><a href="#" class="disabled-link">My Waivers</a></li>
+                        <li><a href="#" class="disabled-link">Surveys</a></li>
                     </ul>
                 </li>
 
@@ -49,17 +54,23 @@
                 <li class="submenu-item"><a href="/app/sessions">Conference Agenda</a></li>
                 <li class="submenu-item"><a href="/app/venue">Venue Information</a></li>
                 <!-- <li class="submenu-item"><a href="/app/speakers">Speaker Bios</a></li> -->
-                <li class="submenu-item"><a href="/app/gallery">Gallery</a></li>
+                <!-- <li class="submenu-item"><a href="/app/gallery">Gallery</a></li> -->
+                <li class="submenu-item"><a href="#" class="disabled-link">Gallery</a></li>
             </ul>
         </li>
         <li>
             <a class="flyout" href="#"><i class="icon-info icon-2x"></i> <br/>My Conference</a>
             <ul class="submenu">
-                <li class="submenu-section">My Conference</li>
-                <li class="submenu-item"><a href="/app/travel">My Travel</a></li>
+                <li class="submenu-section">My Conference - Coming Soon</li>
+                <!-- <li class="submenu-item"><a href="/app/travel">My Travel</a></li>
                 <li class="submenu-item"><a href="/app/agenda">My Agenda</a></li>
                 <li class="submenu-item"><a href="/app/waivers">My Waivers</a></li>
-                <li class="submenu-item"><a href="/app/surveys">Surveys</a></li>
+                <li class="submenu-item"><a href="/app/surveys">Surveys</a></li> -->
+
+                <li class="submenu-item"><a href="#" class="disabled-link">My Travel</a></li>
+                <li class="submenu-item"><a href="#" class="disabled-link">My Agenda</a></li>
+                <li class="submenu-item"><a href="#" class="disabled-link">My Waivers</a></li>
+                <li class="submenu-item"><a href="#" class="disabled-link">Surveys</a></li>
 
             </ul>
         </li>

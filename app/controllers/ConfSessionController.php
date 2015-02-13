@@ -1,6 +1,6 @@
 <?php
 
-class ConfSessionController.php extends \BaseController {
+class ConfSessionController extends \BaseController {
 
 	/**
 	 * Display a listing of the resource.
@@ -10,7 +10,8 @@ class ConfSessionController.php extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		$activities = ConfSession::all();
+		return View::make('app/activity-selection')->with('activity', $activities);
 	}
 
 	/**
@@ -19,9 +20,19 @@ class ConfSessionController.php extends \BaseController {
 	 *
 	 * @return Response
 	 */
-	public function create()
-	{
-		//
+	public static function saveActivitySelection(){
+
+		$activitySelectionDetails = array(
+			'user_name' => Input::get('user_name'),
+			'user_store' => Input::get('user_store'),
+			'activity' => Input::get('activity')
+		);
+
+		$activitySelection = ActivitySelection::create($activitySelectionDetails);
+		$activitySelection->save();
+
+		return Redirect::to('/app/activity-selection-done');
+
 	}
 
 	/**

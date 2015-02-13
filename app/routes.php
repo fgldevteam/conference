@@ -63,10 +63,11 @@ Route::post('/login', array('uses' => 'HomeController@doLogin'));
 Route::get('/logout', array('uses' => 'HomeController@doLogout'));
 
 /* My Conference -- private pages */
-Route::get('/app/activity-selection', array('before' => 'auth', function(){
-	return View::make('app/activity-selection');
+Route::get('/app/activity-selection', array('before' => 'auth', 'uses' => 'ConfSessionController@index'));
+Route::post('/app/activity-selection', array('before' => 'auth', 'uses' => 'ConfSessionController@saveActivitySelection'));
+Route::get('/app/activity-selection-done', array('before' => 'auth', function(){
+	return View::make('app/activity-selection-done');
 }));
-
 
 Route::get('/app/travel', array('before' => 'auth', function(){
 	 return View::make('app/travel');
