@@ -1,7 +1,7 @@
 @extends('app/layout')
 
 @section('title')
-    this is the title
+2015 FGL SGM Conference
 @stop
 
 @section('content')
@@ -44,7 +44,7 @@
             </div>
         </div>
         <div class="related-links">
-            <!-- <a href="recover-password.html">Forgot your password?</a> -->
+            <a href="/password/remind">Forgot your password?</a>
             <!-- <h5>Don't have an account? <a href="register.html">Sign Up</a></h5> -->
         </div>
         {{ Form::close() }}

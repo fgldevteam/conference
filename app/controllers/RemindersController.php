@@ -12,6 +12,7 @@ class RemindersController extends Controller {
 		return View::make('password.remind');
 	}
 
+
 	/**
 	 * Handle a POST request to remind a user of their password.
 	 *
@@ -19,14 +20,22 @@ class RemindersController extends Controller {
 	 */
 	public function postRemind()
 	{
-		switch ($response = Password::remind(Input::only('email')))
+	//	switch ($response = Password::remind(Input::only('email')))
+
+	$response = Password::remind(Input::only('email'), function($message){
+		$message->subject('Password Reset'); 
+	});
+		switch ($response)
 		{
 			case Password::INVALID_USER:
 				return Redirect::back()->with('error', Lang::get($response));
 
 			case Password::REMINDER_SENT:
-				return Redirect::back()->with('status', Lang::get($response));
+				return View::make('password.remind-coming');
+				//return Redirect::back()->with('status', Lang::get($response));
 		}
+
+		return View::make('password.remind-coming');
 	}
 
 	/**
@@ -68,7 +77,7 @@ class RemindersController extends Controller {
 				return Redirect::back()->with('error', Lang::get($response));
 
 			case Password::PASSWORD_RESET:
-				return Redirect::to('/');
+				return Redirect::to('/app');
 		}
 	}
 

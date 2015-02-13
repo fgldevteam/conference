@@ -2055,3 +2055,8 @@ footer hr{
 	opacity: 0.9;
 	filter: alpha(opacity=90);
 }
+
+
+#link_get_widget{
+    display: none;
+}

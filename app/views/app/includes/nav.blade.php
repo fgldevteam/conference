@@ -15,7 +15,7 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Conference Information <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="/app/welcome">Welcome Message</a></li>
-                        <li><a href="/app/sessions">Sessions &amp; Activities</a></li>
+                        <li><a href="/app/sessions">Conference Agenda</a></li>
                         <li><a href="/app/venue">Venue Information</a></li>
                         <li><a href="/app/gallery">Gallery</a></li>
                     </ul>
@@ -46,9 +46,9 @@
             <ul class="submenu">
                 <li class="submenu-section">Conference Information</li>
                 <li class="submenu-item"><a href="/app/welcome">Welcome Message</a></li>
-                <li class="submenu-item"><a href="/app/sessions">Sessions &amp; Activities</a></li>
+                <li class="submenu-item"><a href="/app/sessions">Conference Agenda</a></li>
                 <li class="submenu-item"><a href="/app/venue">Venue Information</a></li>
-                <li class="submenu-item"><a href="/app/speakers">Speaker Bios</a></li>
+                <!-- <li class="submenu-item"><a href="/app/speakers">Speaker Bios</a></li> -->
                 <li class="submenu-item"><a href="/app/gallery">Gallery</a></li>
             </ul>
         </li>

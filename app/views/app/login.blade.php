@@ -5,6 +5,16 @@ Log In
 @stop
 
 @section('content')
+
+@if( count($errors) > 0)
+<h3 style="color: #c00;">Oops!</h3>
+@endif
+@foreach ($errors->all() as $error)
+
+<div>{{ $error }}</div>
+
+@endforeach
+
 <div class="login-box">
     <div class="login-header">
         <h4>Sign In to your account</h4>
@@ -34,7 +44,7 @@ Log In
                 </div>
             </div>
             <div class="related-links">
-                <a href="recover-password.html">Forgot your password?</a>
+                <a href="/password/remind">Forgot your password?</a>
                 <!-- <h5>Don't have an account? <a href="register.html">Sign Up</a></h5> -->
             </div>
         {{ Form::close() }}

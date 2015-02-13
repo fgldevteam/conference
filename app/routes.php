@@ -24,15 +24,31 @@ Route::get('/register', function(){
 Route::post('/register/save', 'RegistrationController@registerUser');
 
 Route::get('/activities', function(){
-	return View::make('activity-preview');	
+	return View::make('activity-preview');
 });
-
-
 
 
 Route::get('/app', function(){
 	return View::make('app/index');
 });
+
+
+Route::controller('/password', 'RemindersController');
+
+//
+// Route::get('/app/password/reset', array('uses' => 'RemindersController@getRemind'));
+// Route::post('/app/password/reset', array('uses' => 'RemindersController@postRemind'));
+//
+// Route::get('/app/password/reset/{token}', array(
+// 	'uses' => 'PasswordController@reset',
+// 	'as' => 'password.reset'
+// ));
+
+// Route::resource('/app/password', 'RemindersController', array(
+// 	'only' => array('getRemind', 'postRemind', 'getReset', 'postReset')
+// ));
+
+
 
 
 /*Conference Info -- public pages*/
